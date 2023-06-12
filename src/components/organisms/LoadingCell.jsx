@@ -4,7 +4,7 @@ import LoadingIndicator from '../atoms/LoadingIndicator';
 const LoadingCell = () => {
     return (
         <div
-            data-testid='loading-cell' /* Para reconocer el elemento en el archivo de testing */
+            data-testid='loading-cell'
             style={{
                 display: 'flex',
                 justifyContent: 'center',

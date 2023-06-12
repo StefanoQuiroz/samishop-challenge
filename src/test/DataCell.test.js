@@ -20,7 +20,7 @@ describe('DataCell', () => {
         const labelElement = screen.getByText(/Prueba/i);
         expect(labelElement).toBeInTheDocument();
 
-        const valueElement = screen.queryByText(/Valor/i); // Incluso si buscas por 'Valor', no debería aparecer porque value es false
+        const valueElement = screen.queryByText(/Valor/i); 
         expect(valueElement).not.toBeInTheDocument();
     });
 });

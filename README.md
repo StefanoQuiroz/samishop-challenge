@@ -10,7 +10,7 @@ Puedes probar la aplicación en vivo en este [enlace](link-to-your-live-demo).
 ## Estructura del proyecto (Atomic Design)
 
 El proyecto sigue la metodología de Atomic-design. Aquí está la estructura de carpetas:
-
+```
 src
 ├── components
 │ ├── atoms
@@ -33,6 +33,7 @@ src
 │ └── MainLayout.jsx
 └── context
 └── Context.jsx
+```
 
 ## Dependencias
 
